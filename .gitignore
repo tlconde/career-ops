@@ -1,24 +1,37 @@
-# Personal data (user fills these)
+# -----------------------------------------------------------------------------
+# User layer (DATA_CONTRACT.md) — personal data, never commit to a public fork
+# -----------------------------------------------------------------------------
+cv.md
+article-digest.md
+config/profile.yml
+portals.yml
+modes/_profile.md
+interview-prep/story-bank.md
+
 data/applications.md
 data/pipeline.md
 data/scan-history.tsv
-reports/*.md
+
+reports/*
 !reports/.gitkeep
+
 output/*
 !output/.gitkeep
+
+jds/*
+!jds/.gitkeep
+
+# -----------------------------------------------------------------------------
+# Batch / generated working files
+# -----------------------------------------------------------------------------
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv
 batch/batch-input.tsv
 batch/tracker-additions/*.tsv
 !batch/tracker-additions/.gitkeep
-jds/*
-!jds/.gitkeep
 
-# User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
+# Updater local state
 .update-dismissed
 .update-lock
 
@@ -35,3 +48,4 @@ node_modules/
 .claude/settings.local.json
 .claude/memory/
 career-dashboard
+cv-references/*
