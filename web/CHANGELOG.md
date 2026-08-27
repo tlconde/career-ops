@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/tlconde/career-ops/compare/web-v0.8.1...web-v0.9.0) (2026-08-27)
+
+
+### Features
+
+* add upstream web/ dashboard (alpha, opt-in) ([1d7ce77](https://github.com/tlconde/career-ops/commit/1d7ce778874c8e52b85f456e1568a318dfa6597f))
+
 ## [0.8.1](https://github.com/santifer/career-ops/compare/web-v0.8.0...web-v0.8.1) (2026-08-27)
 
 
