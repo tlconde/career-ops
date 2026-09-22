@@ -1,4 +1,12 @@
 # Personal data (user fills these)
+# Timestamped backups written by the agent / safe-write helpers.
+# `*.bak*` does NOT catch these: "backup" contains ".bac", not ".bak",
+# so cv.md.backup-<timestamp> sat untracked-but-stageable in the repo root
+# holding the same phone number and email as cv.md. This repo is a PUBLIC fork.
+*.backup
+*.backup-*
+*.backup.*
+
 cv.md
 data/applications.md
 data/applications.db
